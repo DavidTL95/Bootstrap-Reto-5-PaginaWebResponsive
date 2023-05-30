@@ -3,6 +3,51 @@
     padding: 0;
 }
 
-.cajas{
+.container-fluid{
+    height: 100vh;
+    width: 100vw;
+}
+
+.caja1, .caja2, .caja3, .caja4, .caja5{
     border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.caja1{
+    background-image: url("../img/1.jpg");
+}
+
+.caja2{
+    background-image: url("../img/2.jpg");
+}
+
+.caja3{
+    background-image: url("../img/3.jpg");
+}
+
+.caja4{
+    background-image: url("../img/4.jpg");
+}
+
+.caja5{
+    background-image: url("../img/5.jpg");
+}
+
+.boton{
+    border: 1px solid black;
+    border-radius: 0;
+    background-color: rgb(77, 77, 77);
+}
+
+.card{
+    border-radius: 0;
+    border: none;
+    background-color: #DBE8EE;
+}
+
+.card a{
+    justify-self: end;
+    margin: 0;
 }
